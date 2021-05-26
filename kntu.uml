@@ -3,15 +3,40 @@
   <ID>JAVA</ID>
   <OriginalElement>ir.ac.kntu</OriginalElement>
   <nodes>
-    <node x="766.0" y="0.0">ir.ac.kntu.FileHandler</node>
-    <node x="0.0" y="42.0">ir.ac.kntu.OutputManager</node>
-    <node x="562.0" y="0.0">ir.ac.kntu.InputManager</node>
-    <node x="396.83333333333326" y="228.0">ir.ac.kntu.Main</node>
-    <node x="194.0" y="21.0">ir.ac.kntu.AlgorithmWordFinder</node>
+    <node x="766.0" y="21.0">ir.ac.kntu.FileHandler</node>
+    <node x="0.0" y="63.0">ir.ac.kntu.OutputManager</node>
+    <node x="562.0" y="21.0">ir.ac.kntu.InputManager</node>
+    <node x="396.83333333333326" y="270.0">ir.ac.kntu.Main</node>
+    <node x="194.0" y="0.0">ir.ac.kntu.AlgorithmWordFinder</node>
   </nodes>
   <notes />
-  <edges />
-  <settings layout="Hierarchic Group" zoom="1.0" x="540.0" y="206.0" />
+  <edges>
+    <edge source="ir.ac.kntu.Main" target="ir.ac.kntu.OutputManager">
+      <point x="-82.54166666666652" y="-92.0" />
+      <point x="455.79166666666674" y="230.0" />
+      <point x="145.0" y="230.0" />
+      <point x="58.0" y="27.0" />
+    </edge>
+    <edge source="ir.ac.kntu.Main" target="ir.ac.kntu.AlgorithmWordFinder">
+      <point x="-58.95833333333326" y="-92.0" />
+      <point x="479.375" y="220.0" />
+      <point x="252.0" y="220.0" />
+      <point x="-116.0" y="90.0" />
+    </edge>
+    <edge source="ir.ac.kntu.Main" target="ir.ac.kntu.InputManager">
+      <point x="11.791666666666742" y="-92.0" />
+      <point x="550.125" y="200.0" />
+      <point x="592.6666666666666" y="200.0" />
+      <point x="-61.33333333333337" y="69.0" />
+    </edge>
+    <edge source="ir.ac.kntu.Main" target="ir.ac.kntu.FileHandler">
+      <point x="82.54166666666663" y="-92.0" />
+      <point x="620.8749999999999" y="230.0" />
+      <point x="818.3333333333333" y="230.0" />
+      <point x="-104.66666666666669" y="69.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6729957805907173" x="540.0" y="227.0" />
   <SelectedNodes>
     <node>ir.ac.kntu.FileHandler</node>
   </SelectedNodes>
