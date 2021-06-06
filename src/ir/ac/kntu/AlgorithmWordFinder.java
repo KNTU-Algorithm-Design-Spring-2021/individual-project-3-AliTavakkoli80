@@ -4,18 +4,17 @@ import java.util.HashMap;
 
 public class AlgorithmWordFinder {
 
-    private String result;
     private final HashMap<String, String> mapFromFile;
+    private String result;
 
     public AlgorithmWordFinder(String inputString, HashMap<String, String> mapFromFile) {
         result = new String("");
         this.mapFromFile = mapFromFile;
-        wordBreakUtil(inputString, 0,inputString.length());
+        wordBreakUtil(inputString, 0, inputString.length());
 
     }
 
-    void wordBreakUtil(String inputString,int first,int last)
-    {
+    void wordBreakUtil(String inputString, int first, int last) {
         if (first != last) {
 
             if (mapFromFile.containsValue(inputString.substring(first, last))) {
@@ -26,8 +25,8 @@ public class AlgorithmWordFinder {
             } else {
                 last--;
             }
-            wordBreakUtil(inputString,first,last);
-        }else {
+            wordBreakUtil(inputString, first, last);
+        } else {
             return;
         }
     }
