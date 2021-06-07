@@ -8,7 +8,7 @@ public class Main {
 //            = "resources/words.txt";
 
     final static String filePath
-            = "resources/words_alpha.txt";
+            = "Bond,JamesBond_Files/resources/words_alpha.txt";
 
     private AlgorithmWordFinder algorithmWordFinder;
     private FileHandler fileHandler;
